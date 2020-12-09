@@ -139,7 +139,7 @@ public class BankingApplication {
 				String name = sSc.nextLine();
 				System.out.print("Enter Amount you want to deposit: ");
 				float amount = sc.nextInt();
-				System.out.println("Enter:3\n1. Cash\n2. Online");
+				System.out.println("Enter: \n1. Cash\n2. Online");
 				int mode = sc.nextInt();
 				String md;
 				if(mode == 1)
